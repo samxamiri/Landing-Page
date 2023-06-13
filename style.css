@@ -30,13 +30,14 @@ body {
 }
 
 .right-body {
+  display: flex;
+
   margin-right: 180px;
 }
 
-img {
-  width: 100%; /* Set the width to 100% of its container */
-  height: 100%; /* Set the height to 100% of its container */
-  object-fit: cover; /* Stretch the image to fill the container, cropping if necessary */
+.placeholder {
+  width: 600px;
+  max-height: 400px;
 }
 
 .left-body {
@@ -183,4 +184,15 @@ ul a {
 .calltoaction {
   color: white;
   font-weight: 600;
+}
+
+.section-5 {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+}
+
+.copyright {
+  color: white;
+  padding: 30px;
 }
